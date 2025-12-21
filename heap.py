@@ -1,5 +1,5 @@
 def heapify(arr, n, i):
-    largest = i  # Initialize largest as root
+    largest = i  
     left = 2*i+1
     right = 2*i+2
     if(left < n and arr[left] > arr[largest]):
